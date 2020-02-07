@@ -1,6 +1,6 @@
 function identifyButton(event) {
   // read & process user input
-  const buttonText = event.target.which;
+  const buttonText = event.target.innerText;
 
   // execute core logic
   const centerMessage = generateMessage(buttonText);
@@ -19,7 +19,7 @@ function identifyButton(event) {
 
 function clearOutput() {
   // execute core logic
-  const centerMessage = keyIsEnter();
+  const centerMessage = '';
 
   // render results to user
   document.getElementById('center-text').innerHTML = centerMessage;
