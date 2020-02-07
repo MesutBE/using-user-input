@@ -7,34 +7,48 @@
 #red {
   top: 39vh;
   left: 20vw;
+  height: 20px;
+  border: solid 1px;
 }
 
 #orange {
   top: 0vh;
   left: 46vw;
+  height: 20px;
+  border: solid 1px;
 }
 
 #blue {
   top: 14vh;
   left: 96vw;
+  height: 20px;
+  border: solid 1px;
 }
 
 #green {
   top: 67vh;
   left: 05vw;
+  height: 20px;
+  border: solid 1px;
 }
 
 #yellow {
   top: 62vh;
   left: 02vw;
+  height: 20px;
+  border: solid 1px;
 }
 
 #grey {
   top: 14vh;
   left: 29vw;
+  height: 20px;
+  border: solid 1px;
 }
 
 #black {
   top: 62vh;
   left: 59vw;
+  height: 20px;
+  border: solid 1px;
 }

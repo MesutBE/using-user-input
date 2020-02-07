@@ -1,6 +1,6 @@
 function setBackground(event) {
   // read & process user input
-  const divId = event.target.value;
+  const divId = event.target.id;
 
   // execute core logic
   const newColor = filterColors(divId);
