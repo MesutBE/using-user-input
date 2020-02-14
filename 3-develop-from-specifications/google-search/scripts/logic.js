@@ -1,5 +1,5 @@
-const _Tests = [
-  { name: 'first', args: [], expected: null },
+const generateSearchURLTests = [
+  { name: 'first', args: [asd], expected: null },
   { name: 'second', args: [], expected: null },
   { name: 'third', args: [], expected: null },
   { name: 'fourth', args: [], expected: null },
@@ -11,6 +11,9 @@ const _Tests = [
   { name: 'tenth', args: [], expected: null },
 ];
 
-function _() { }
+function generateSearchURL(text) {
+  const encodedQuery = encodeURIComponent(text);
+  return 'https://www.google.com/?q=' + encodedQuery;
+ }
 
-testing(_, _Tests);
+testing(generateSearchURL, generateSearchURLTests);
