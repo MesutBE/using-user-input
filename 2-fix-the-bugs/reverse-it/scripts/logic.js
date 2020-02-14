@@ -1,4 +1,4 @@
-const reverseTests = [
+const reversedTests = [
   { name: 'first', args: ['lower case words'], expected: 'sdrow esac rewol' },
   { name: 'second', args: ['1324 &*()'], expected: ')(*& 4231' },
   { name: 'third', args: [''], expected: '' },
@@ -7,8 +7,8 @@ const reverseTests = [
   { name: 'sixth', args: ['String.prototype.toUpperCase'], expected: 'esaCreppUot.epytotorp.gnirtS' },
 ];
 
-function reverse(str) {
-  return str.split('').join('').reverse();
+function reversed(str) {
+  return str.split('').reverse().join('');
 }
 
-test(reverse, reverseTests);
+testing(reversed, reversedTests);
