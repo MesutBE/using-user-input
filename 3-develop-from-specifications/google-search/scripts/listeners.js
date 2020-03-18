@@ -1,1 +1,1 @@
-document.getElementById('search-it').addEventListener('blur', gooooogle);
+document.getElementById("search-it").addEventListener("blur", gooooogle);

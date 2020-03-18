@@ -13,7 +13,7 @@ const generateSearchURLTests = [
 
 function generateSearchURL(text) {
   const encodedQuery = encodeURIComponent(text);
-  return 'https://www.google.com/?q=' + encodedQuery;
+  return 'https://www.google.com/search?&q=' + encodedQuery;
  }
 
 testing(generateSearchURL, generateSearchURLTests);
